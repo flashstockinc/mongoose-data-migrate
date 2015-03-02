@@ -1,7 +1,7 @@
 {
   "name": "mongoose-data-migrate",
   "version": "0.1.0",
-  "description": "Data migration framework using mongoose",
+  "description": "Data migration framework for node.js using mongoose",
 	"keywords": [
 		"mongo",
 		"mongodb",
@@ -14,9 +14,8 @@
 	],
 	"bugs": "https://github.com/flashstockinc/mongoose-data-migrate/issues",
 	"license": "MIT",
-  "author": "FlashStock Technology Inc. <development@flashstock.com>",
+  "author": "Jose Roberto Vidal <roberto@flashstock.com>",
 	"contributors": [{
-		"Jose Roberto Vidal <roberto@flashstock.com>"
 	}],
   "main": "index.js",
   "bin": "bin/index.js",
