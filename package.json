@@ -1,0 +1,46 @@
+{
+  "name": "mongoose-data-migrate",
+  "version": "0.1.0",
+  "description": "Data migration framework using mongoose",
+	"keywords": [
+		"mongo",
+		"mongodb",
+		"mongoose",
+		"migrate",
+		"migration",
+		"migrations",
+		"data",
+		"database"
+	],
+	"bugs": "https://github.com/flashstockinc/mongoose-data-migrate/issues",
+	"license": "MIT",
+  "author": "FlashStock Technology Inc. <development@flashstock.com>",
+	"contributors": [{
+		"Jose Roberto Vidal <roberto@flashstock.com>"
+	}],
+  "main": "index.js",
+  "bin": "bin/index.js",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:flashstockinc/mongoose-data-migrate.git"
+	},
+  "scripts": {
+    "test": "jasmine-node test/"
+  },
+  "dependencies": {
+    "cli": "^0.6.5",
+    "debug": "^2.1.1",
+    "lodash": "^3.1.0",
+    "mkdirp": "^0.5.0",
+    "q": "^1.1.2"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5",
+    "mongodb": "^1.4.30",
+    "mongoose": "3.8.x",
+    "rimraf": "^2.2.8"
+  },
+  "peerDependencies": {
+    "mongoose": "3.8.x"
+  }
+}
