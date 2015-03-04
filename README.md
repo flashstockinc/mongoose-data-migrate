@@ -17,7 +17,7 @@ At a high level, here's how you use it:
 
 ## Installation
 
-    $ npm install -g mongoose-db-migrate
+    $ npm install -g mongoose-data-migrate
 		
 ## Usage
 
