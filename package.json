@@ -14,7 +14,7 @@
 	],
 	"bugs": "https://github.com/flashstockinc/mongoose-data-migrate/issues",
 	"license": "MIT",
-  "author": "Jose Roberto Vidal <roberto@flashstock.com>",
+  "author": "Jose Roberto Vidal <vidal.roberto.j@gmail.com>",
 	"contributors": [{
 	}],
   "main": "index.js",
