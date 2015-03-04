@@ -1,6 +1,6 @@
 {
   "name": "mongoose-data-migrate",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Data migration framework for node.js using mongoose",
 	"keywords": [
 		"mongo",
