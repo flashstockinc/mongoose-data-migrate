@@ -7,6 +7,6 @@ exports.up = function (next) {
 
 
 exports.down = function (next) {
-	console.log('    --> This is migration {{name}} being rollbacked and failing');
+	console.log('    --> This is migration {{name}} being rolled back and failing');
 	next(new Error('some_error from {{name}}'));
 };
