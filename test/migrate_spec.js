@@ -428,7 +428,7 @@ describe('migrate', function () {
 			})
 			.then(shouldFail, function (err) {
 				expect(err).toBeDefined();
-				expect(err.message).toMatch(/Rollbacked on error/);
+				expect(err.message).toMatch(/Rolled back on error/);
 			})
 			.then(findMigrations)
 			.spread(function (controlDoc, batches) {
@@ -449,7 +449,7 @@ describe('migrate', function () {
 			})
 			.then(shouldFail, function (err) {
 				expect(err).toBeDefined();
-				expect(err.message).toMatch(/Rollbacked on error/);
+				expect(err.message).toMatch(/Rolled back on error/);
 			})
 			.then(findMigrations)
 			.spread(function (controlDoc, batches) {
@@ -483,7 +483,7 @@ describe('migrate', function () {
 			})
 			.then(shouldFail, function (err) {
 				expect(err).toBeDefined();
-				expect(err.message).toMatch(/Rollbacked on error/);
+				expect(err.message).toMatch(/Rolled back on error/);
 			})
 			.then(function () {
 				createMigrations('5');
