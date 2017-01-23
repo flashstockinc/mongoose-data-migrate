@@ -51,6 +51,10 @@ module.exports = {
 	// See: http://mongoosejs.com/docs/connections.html
 	db: 'mongodb://localhost:27017',
 
+	// mongodb connection options in mongoose format (optional): 'mongodb://username:password@host:port/database?options...'
+	// See: http://mongoosejs.com/docs/connections.html
+	dbOptions: {},
+
 	// Name for the migrations collection (defaults to 'migrations')
 	collection: 'migrations'
 };
