@@ -56,7 +56,11 @@ module.exports = {
 	dbOptions: {},
 
 	// Name for the migrations collection (defaults to 'migrations')
-	collection: 'migrations'
+	collection: 'migrations',
+
+	// By default not already applied migrations that have a timestamp older than the newest already applied
+	// migration will be skipped, if you want to run all not applied migrations set this to true.
+	applyOutOfOrderMigrations: false,
 };
 ```
 
